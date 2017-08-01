@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title %></title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <style type="text/css">
+        a {margin-left:20px; text-decoration:none;}
+        a:hover {text-decoration:underline;}
+        p {font-size:16px;margin-top:20px;}
+    </style>
+    <script type="text/javascript" src="/javascripts/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="/javascripts/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Your name: <%- user.name %></h1>
+    <p>Welcome to your home ~</p>
+    <p><a href="/logout">我要注销</a></p>
+</div>
+</body>
+</html>
